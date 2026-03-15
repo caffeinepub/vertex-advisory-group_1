@@ -10,9 +10,10 @@ const links = [
   { to: "/advisors", label: "Advisors", ocid: "nav.advisors.link" },
   { to: "/pricing", label: "Pricing", ocid: "nav.pricing.link" },
   { to: "/contact", label: "Contact", ocid: "nav.contact.link" },
+  { to: "/admin", label: "Admin", ocid: "nav.admin.link" },
 ];
 
-function VertexLogo() {
+function UnicornLogo() {
   return (
     <motion.div
       className="relative flex-shrink-0"
@@ -32,7 +33,7 @@ function VertexLogo() {
     >
       <motion.img
         src="/assets/uploads/file_00000000334c71fa8a007e0eea15a39d-1.png"
-        alt="Vertex Advisory Logo"
+        alt="Unicorn Advisory Logo"
         style={{ height: 48, width: "auto", objectFit: "contain" }}
         animate={{ scale: [1, 1.04, 1] }}
         transition={{
@@ -72,9 +73,9 @@ function Navbar() {
       <nav className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <Link to="/" className="flex items-center gap-3 group">
-            <VertexLogo />
+            <UnicornLogo />
             <span className="font-display font-bold text-lg">
-              <span style={{ color: "oklch(0.82 0.22 155)" }}>Vertex</span>
+              <span style={{ color: "oklch(0.82 0.22 155)" }}>Unicorn</span>
               <span style={{ color: "oklch(0.92 0.02 265)" }}> Advisory</span>
             </span>
           </Link>

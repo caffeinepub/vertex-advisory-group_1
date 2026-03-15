@@ -11,6 +11,7 @@ import AnimatedBackground from "./components/AnimatedBackground";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import TickerTape from "./components/TickerTape";
+import AdminDashboard from "./pages/AdminDashboard";
 import Advisors from "./pages/Advisors";
 import Contact from "./pages/Contact";
 import Home from "./pages/Home";
@@ -78,6 +79,11 @@ const pricingRoute = createRoute({
   path: "/pricing",
   component: Pricing,
 });
+const adminRoute = createRoute({
+  getParentRoute: () => rootRoute,
+  path: "/admin",
+  component: AdminDashboard,
+});
 
 const routeTree = rootRoute.addChildren([
   indexRoute,
@@ -86,6 +92,7 @@ const routeTree = rootRoute.addChildren([
   advisorsRoute,
   contactRoute,
   pricingRoute,
+  adminRoute,
 ]);
 
 const router = createRouter({

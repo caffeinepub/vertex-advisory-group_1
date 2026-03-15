@@ -64,7 +64,7 @@ const advisors = [
     experience: 10,
     specialization: "Commodities",
     markets: ["USOIL", "XAUUSD", "Natural Gas"],
-    bio: "Fifteen years of energy market experience at Shell Trading before joining Vertex. David's OPEC and supply-demand modeling is the backbone of our commodity signals.",
+    bio: "Fifteen years of energy market experience at Shell Trading before joining Unicorn. David's OPEC and supply-demand modeling is the backbone of our commodity signals.",
     stats: { clients: 156, winRate: "73%", avgReturn: "+39%" },
     icon: BarChart2,
     color: "oklch(0.65 0.26 20)",

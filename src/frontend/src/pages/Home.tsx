@@ -185,7 +185,7 @@ const testimonials = [
   {
     name: "James Whitfield",
     role: "Institutional Investor",
-    text: "Vertex Advisory transformed my portfolio. Their XAUUSD signals alone have returned 34% this year.",
+    text: "Unicorn Advisory transformed my portfolio. Their XAUUSD signals alone have returned 34% this year.",
     rating: 5,
   },
   {
@@ -244,7 +244,7 @@ function Home() {
           </div>
 
           <h1 className="font-display font-bold text-5xl md:text-7xl lg:text-8xl leading-none tracking-tight mb-6">
-            <span style={{ color: "oklch(0.92 0.02 265)" }}>Vertex</span>{" "}
+            <span style={{ color: "oklch(0.92 0.02 265)" }}>Unicorn</span>{" "}
             <span className="gradient-text-bull">Advisory</span>
             <br />
             <span style={{ color: "oklch(0.92 0.02 265)" }}>Group</span>
@@ -380,7 +380,7 @@ function Home() {
           >
             <h2 className="font-display font-bold text-4xl md:text-5xl mb-4">
               <span style={{ color: "oklch(0.92 0.02 265)" }}>Why Choose </span>
-              <span className="gradient-text-bull">Vertex?</span>
+              <span className="gradient-text-bull">Unicorn?</span>
             </h2>
             <p className="text-base" style={{ color: "oklch(0.6 0.04 265)" }}>
               Institutional-grade advisory for individual investors
@@ -527,7 +527,7 @@ function Home() {
               className="mb-8 relative"
               style={{ color: "oklch(0.65 0.04 265)" }}
             >
-              Join 1,200+ investors who trust Vertex Advisory for their
+              Join 1,200+ investors who trust Unicorn Advisory for their
               financial growth.
             </p>
             <Link

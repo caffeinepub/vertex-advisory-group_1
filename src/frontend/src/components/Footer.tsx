@@ -31,7 +31,7 @@ function Footer() {
                 />
               </div>
               <span className="font-display font-bold text-lg">
-                <span style={{ color: "oklch(0.82 0.22 155)" }}>Vertex</span>
+                <span style={{ color: "oklch(0.82 0.22 155)" }}>Unicorn</span>
                 <span style={{ color: "oklch(0.92 0.02 265)" }}>
                   {" "}
                   Advisory Group
@@ -130,7 +130,7 @@ function Footer() {
           style={{ borderTop: "1px solid oklch(0.15 0.02 265)" }}
         >
           <p className="text-xs" style={{ color: "oklch(0.45 0.03 265)" }}>
-            © {year} Vertex Advisory Group. All rights reserved.
+            © {year} Unicorn Advisory Group. All rights reserved.
           </p>
         </div>
       </div>
