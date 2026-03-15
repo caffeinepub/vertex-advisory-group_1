@@ -32,7 +32,7 @@ function UnicornLogo() {
       }}
     >
       <motion.img
-        src="/assets/uploads/file_00000000334c71fa8a007e0eea15a39d-1.png"
+        src="/assets/uploads/file_000000000fa472089b79781760bf5b31-1.png"
         alt="Unicorn Advisory Logo"
         style={{ height: 48, width: "auto", objectFit: "contain" }}
         animate={{ scale: [1, 1.04, 1] }}

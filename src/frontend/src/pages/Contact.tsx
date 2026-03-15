@@ -32,7 +32,7 @@ const contactInfo = [
     value: "One Financial Plaza, New York, NY 10005",
   },
   { icon: Phone, label: "Phone", value: "+1 (212) 555-0182" },
-  { icon: Mail, label: "Email", value: "advisory@vertexgroup.com" },
+  { icon: Mail, label: "Email", value: "advisory@unicorngroup.com" },
   { icon: Clock, label: "Hours", value: "Mon–Fri: 7AM–8PM EST" },
 ];
 
