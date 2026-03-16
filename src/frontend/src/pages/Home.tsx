@@ -200,6 +200,36 @@ const testimonials = [
     text: "Their USOIL and precious metals analysis is unmatched. I've doubled my commodity portfolio in 18 months.",
     rating: 5,
   },
+  {
+    name: "Ravi Nair",
+    role: "Forex Trader",
+    text: "Their EUR/USD analysis is spot on every week. I've grown my account by 27% following Unicorn's guidance.",
+    rating: 5,
+  },
+  {
+    name: "Sophie Beaumont",
+    role: "Wealth Manager",
+    text: "Unicorn Advisory's risk management framework is exactly what my clients needed. Professional, transparent, and results-driven.",
+    rating: 5,
+  },
+  {
+    name: "Ahmed Al-Farsi",
+    role: "Commodity Investor",
+    text: "XAGUSD calls have been incredibly accurate. My silver position is up 40% since I joined the platform.",
+    rating: 5,
+  },
+  {
+    name: "Liu Wei",
+    role: "Crypto Investor",
+    text: "The algo copy trading feature on the $499 plan is a game changer. My BTC and ETH positions are managed automatically with great returns.",
+    rating: 5,
+  },
+  {
+    name: "Natasha Volkov",
+    role: "Private Investor",
+    text: "I was skeptical at first, but after 6 months with Unicorn Advisory my USOIL trades have never been more consistent.",
+    rating: 5,
+  },
 ];
 
 function Home() {
@@ -445,7 +475,7 @@ function Home() {
             </h2>
           </motion.div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
             {testimonials.map((t) => (
               <motion.div
                 key={t.name}

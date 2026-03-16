@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import { Linkedin, TrendingUp, Twitter, Youtube } from "lucide-react";
+import { Linkedin, Twitter, Youtube } from "lucide-react";
 
 function Footer() {
   const year = new Date().getFullYear();
@@ -17,19 +17,12 @@ function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-10">
           {/* Brand */}
           <div className="md:col-span-2">
-            <div className="flex items-center gap-2 mb-4">
-              <div
-                className="w-9 h-9 rounded-lg flex items-center justify-center"
-                style={{
-                  background: "oklch(0.82 0.22 155 / 0.15)",
-                  border: "1px solid oklch(0.82 0.22 155 / 0.4)",
-                }}
-              >
-                <TrendingUp
-                  size={18}
-                  style={{ color: "oklch(0.82 0.22 155)" }}
-                />
-              </div>
+            <div className="flex items-center gap-3 mb-4">
+              <img
+                src="/assets/uploads/file_000000000fa472089b79781760bf5b31-1-1.png"
+                alt="Unicorn Advisory Group Logo"
+                className="w-12 h-12 object-contain"
+              />
               <span className="font-display font-bold text-lg">
                 <span style={{ color: "oklch(0.82 0.22 155)" }}>Unicorn</span>
                 <span style={{ color: "oklch(0.92 0.02 265)" }}>
@@ -54,7 +47,7 @@ function Footer() {
               ].map(({ Icon, name }) => (
                 <a
                   key={name}
-                  href="https://vertex-advisory.com"
+                  href="https://unicornadvisory.com"
                   className="w-9 h-9 rounded-lg flex items-center justify-center transition-all duration-200 hover:scale-110"
                   style={{
                     background: "oklch(0.12 0.02 265)",
